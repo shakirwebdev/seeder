@@ -1,0 +1,22 @@
+{
+    "name": "shakirwebdev/seeder",
+    "authors": [
+        {
+            "name": "Mohd Shakir",
+            "email": "shakir.webdevelop@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Seeder\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [],
+            "providers": [
+                "Seeder\\Providers\\UtilityServiceProvider"
+            ]
+        }
+    }
+}
